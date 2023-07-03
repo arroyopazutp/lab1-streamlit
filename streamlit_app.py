@@ -1,6 +1,9 @@
+pip install streamlit
+pip install matplotlib
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
+
 # Definimos el título de nuestra aplicación:
 st.title('Mi aplicación de visualización de datos')
 # Pedimos al usuario que cargue un archivo CSV con datos:
