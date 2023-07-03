@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-df = pd.read_csv("https://raw.githubusercontent.com/dataprofessor/data/master/books.csv")
+df = pd.read_csv("https://gist.github.com/jaidevd/23aef12e9bf56c618c41#file-books-csv")
 
 # Encabezado de la aplicación
 st.header("Visualización de datos - Libros")
