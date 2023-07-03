@@ -17,7 +17,7 @@ def main():
 
     @st.cache(persist=True)
     def load_data():
-        data = pd.read_csv("path\\to\\mushrooms.csv")
+        data = pd.read_csv("https://github.com/arroyopazutp/lab1-streamlit/blob/main/mushrooms.csv")
         labelencoder=LabelEncoder()
         for col in data.columns:
             data[col] = labelencoder.fit_transform(data[col])
